@@ -7,34 +7,37 @@ function Projects() {
   return (
     <div>
       <CustomNavbar colorClass="text-themePink" activePage="/projects" />
-      <div className="d-flex align-items-end justify-content-center" style={{height: "92vh"}}>  
-      <Container>
-        <Row>
-          <Col
-            lg={4}
-            className="d-flex align-items-center justify-content-center flex-column"
-          >
-            <p className="display-1 fw-bold text-center mb-5 text-tertiary">
-              Projects
-            </p>
-            <Nav.Link
-              className="radial-gradient fs-2 fw-bold rounded 3 border-0 py-2 px-5 text-decoration-none text-white"
-              href="/projects/explore"
+      <div
+        className="d-flex align-items-end justify-content-center"
+        style={{ height: "92vh" }}
+      >
+        <Container>
+          <Row>
+            <Col
+              lg={4}
+              className="d-flex align-items-center justify-content-center flex-column"
             >
-              Explore Now
-            </Nav.Link>
-          </Col>
-          <Col lg={8} className="d-flex align-items-end justify-content-end">
-            <Image
-              src={projects}
-              alt="projects"
-              className="w-75"
-              draggable="false"
-              fluid
-            />
-          </Col>
-        </Row>
-      </Container>
+              <p className="display-1 fw-bold text-center mb-5 text-tertiary">
+                Projects
+              </p>
+              <Nav.Link
+                className="radial-gradient fs-2 fw-bold rounded 3 border-0 py-2 px-5 text-decoration-none text-white"
+                href="/projects/explore"
+              >
+                Explore Now
+              </Nav.Link>
+            </Col>
+            <Col lg={8} className="d-flex align-items-end justify-content-end">
+              <Image
+                src={projects}
+                alt="projects"
+                className="w-75"
+                draggable="false"
+                fluid
+              />
+            </Col>
+          </Row>
+        </Container>
       </div>
     </div>
   );

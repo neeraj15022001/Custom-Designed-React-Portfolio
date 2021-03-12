@@ -1,6 +1,6 @@
 import React from "react";
 import "./Opening.css";
-import "./Opening.js"
+import "./Opening.js";
 
 function Opening() {
   const color = "#ffffff";
