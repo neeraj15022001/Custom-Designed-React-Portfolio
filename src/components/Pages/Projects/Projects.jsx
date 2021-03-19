@@ -7,6 +7,7 @@ function Projects() {
   return (
     <div>
       <CustomNavbar colorClass="text-themePink" activePage="/projects" />
+      <div className="d-flex align-items-end justify-content-center" style={{height: "92vh"}}>  
       <Container>
         <Row>
           <Col
@@ -34,6 +35,7 @@ function Projects() {
           </Col>
         </Row>
       </Container>
+      </div>
     </div>
   );
 }
