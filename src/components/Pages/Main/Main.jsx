@@ -17,7 +17,7 @@ function Main() {
               <p className="display-4 fw-bolder mb-5 text-tertiary">
                 Hello my
                 <br /> name is <span className="text-theme">Avishka</span>.
-                <br /> I am a FrontEnd
+                <br /> I am a Front End
                 <br /> Developer
               </p>
             </div>
