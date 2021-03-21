@@ -12,8 +12,10 @@
   --themeSecondarry: #5a5b67;
   --themeTertiary: #5d5e65;
   --themePink: #db7daf;
-  --themeLightPink:#e9aac7;
-  --themeBlue : #62B1F6;
+  --themeLightPink: #e9aac7;
+  --themeBlue: #62b1f6;
+  --themeYellow: #e3d0b5;
+  --themeBrown: #3d311b;
 }
 .full-page-spread {
   height: 100vh;
@@ -30,6 +32,15 @@
 }
 .text-themeBlue {
   color: var(--themeBlue) !important;
+}
+.text-themeYellow {
+  color: var(--themeYellow) !important;
+}
+.text-themeBrown {
+  color: var(--themeBrown) !important;
+}
+.bg-themeYellow {
+  background-color: var(--themeYellow) !important;
 }
 .active {
   color: var(--themeColor) !important;
