@@ -14,7 +14,7 @@ function CustomNavbar({colorClass,activePage}) {
           <Navbar.Toggle aria-controls="basic-navbar-nav" className={`${colorClass}`} />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto" activeKey={activePage}>
-              <Nav.Link href="/home" className={`text-secondary`}>Home</Nav.Link>
+              <Nav.Link href="/" className={`text-secondary`}>Home</Nav.Link>
               <Nav.Link href="/about" className="text-secondary ms-lg-4">About</Nav.Link>
               <Nav.Link href="/skills" className="text-secondary ms-lg-4">Skills</Nav.Link>
               <Nav.Link href="/projects" className="text-secondary ms-lg-4">Projects</Nav.Link>

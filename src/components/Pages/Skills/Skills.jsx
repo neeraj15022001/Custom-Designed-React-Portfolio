@@ -15,7 +15,7 @@ function Skills() {
                         <Donut />
                     </Col>
                     <Col lg={5} className="d-flex align-items-center justify-content-center" style={{height:"90vh"}}>
-                        <Image src={skills} alt="projects" className="w-75 me-5" fluid />
+                        <Image src={skills} alt="projects" className="w-75 me-5" draggable="false" fluid />
                     </Col>
                 </Row>
             </Container>

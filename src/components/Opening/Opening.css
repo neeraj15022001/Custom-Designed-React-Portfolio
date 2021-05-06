@@ -40,6 +40,15 @@
   stroke-dashoffset: 977.5430297851562;
   animation: animation 2s ease-in-out forwards 1.8s;
 }
+#opening-body {
+  /* position: fixed;
+  z-index: 10;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; */
+  animation: hideBody 0.3s ease-in-out forwards 6s;
+}
 .bg-theme {
   background-color: var(--themeColor);
 }
@@ -54,5 +63,10 @@
   }
   to {
     fill: var(--themeWhite);
+  }
+}
+@keyframes hideBody {
+  to {
+    display: none;
   }
 }

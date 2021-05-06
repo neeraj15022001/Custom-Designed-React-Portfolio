@@ -1,23 +1,11 @@
 import React from "react";
-import Opening from "./components/Opening/Opening.jsx";
 import "./App.css";
-import Main from "./components/Pages/Main/Main.jsx";
-import Projects from "./components/Pages/Projects/Projects.jsx";
-import Skills from "./components/Pages/Skills/Skills"
+import Router from "./Router.js";
 
 function App() {
-  const page = 1;
   return (
     <div>
-      {page === 1 ? (
-        <Projects />
-      ) : (
-        <>
-          {/* <Opening /> */}
-          {/* <Main /> */}
-          <Skills />
-        </>
-      )}
+      <Router />
     </div>
   );
 }
