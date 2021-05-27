@@ -1,25 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 * {
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
 }
 :root {
-  --themeColor:#7D87E6;
+  --themeColor: #7d87e6;
   --themeWhite: #ffffff;
-  --themeSecondarry:#5A5B67;
-  --themeTertiary:#5D5E65;
+  --themeSecondarry: #5a5b67;
+  --themeTertiary: #5d5e65;
+  --themePink: rgba(219, 125, 175, 1);
+  --themeLightPink:rgba(233, 170, 199, 1);
 }
 .full-page-spread {
   height: 100vh;
   width: 100%;
 }
 .font-pacifico {
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
 }
 .text-theme {
   color: var(--themeColor) !important;
+}
+.text-themePink {
+  color: var(--themePink) !important;
 }
 .active {
   color: var(--themeColor) !important;
@@ -30,4 +35,13 @@
 }
 .text-tertiary {
   color: var(--themeTertiary) !important;
+}
+.radial-gradient {
+  background: var(--themeLightPink);
+  background: radial-gradient(
+    circle,
+    var(--themeLightPink) 0%,
+    var(--themePink) 100%
+  );
+  color: var(--themeWhite);
 }
