@@ -9,7 +9,7 @@ function Main() {
     return (
         <>
             <Container className="py-5">
-                <Row>
+                <Row style={{"height" : "85vh"}}>
                     <Col className="d-flex align-items-start flex-column">
                         <div className="d-flex align-items-center justify-content-center flex-fill">
                         <p className="display-4 fw-bolder mb-5 text-tertiary">Hello my<br/> name is <span className="text-theme">Avishka</span>.<br/> I am a Full Stack<br/> Developer</p>
