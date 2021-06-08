@@ -9534,6 +9534,11 @@
   "resolved" "https://registry.npmjs.org/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz"
   "version" "3.0.4"
 
+"react-minimal-pie-chart@^8.2.0":
+  "integrity" "sha512-RhrHzprJt3KfBe4L3sE0Ha6fj4kYcwQtesQgscnld9Umf64+nZnxxInycnbimKsbIjxJONv77JIZp+qRbJD+bA=="
+  "resolved" "https://registry.npmjs.org/react-minimal-pie-chart/-/react-minimal-pie-chart-8.2.0.tgz"
+  "version" "8.2.0"
+
 "react-overlays@^5.0.0":
   "integrity" "sha512-plwUJieTBbLSrgvQ4OkkbTD/deXgxiJdNuKzo6n1RWE3OVnQIU5hffCGS/nvIuu6LpXFs2majbzaXY8rcUVdWA=="
   "resolved" "https://registry.npmjs.org/react-overlays/-/react-overlays-5.0.1.tgz"
