@@ -7,7 +7,7 @@ import Donut from "./Donut Chart/Donut"
 function Skills() {
     return (
         <div>
-            <CustomNavbar colorClass="text-themePink" />
+            <CustomNavbar colorClass="text-theme" activePage="/skills"/>
             <Container>
                 <Row>
                     <Col lg={7} className="d-flex align-items-center justify-content-center flex-column text-center">

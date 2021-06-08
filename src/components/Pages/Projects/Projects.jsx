@@ -6,7 +6,7 @@ import projects from "../../../resources/projects.png"
 function Projects() {
     return (
         <div>
-            <CustomNavbar colorClass="text-themePink" />
+            <CustomNavbar colorClass="text-themePink" activePage="/projects" />
             <Container>
                 <Row>
                     <Col lg={4} className="d-flex align-items-center justify-content-center flex-column">
@@ -14,7 +14,7 @@ function Projects() {
                         <button className="radial-gradient fs-2 fw-bold rounded 3 border-0 py-2 px-5">Explore Now</button>
                     </Col>
                     <Col lg={8} className="d-flex align-items-end justify-content-end">
-                        <Image src={projects} alt="projects" fluid />
+                        <Image src={projects} alt="projects" className="w-75" fluid />
                     </Col>
                 </Row>
             </Container>

@@ -9,7 +9,7 @@ import CustomNavbar from "../../common/CustomNavbar/CustomNavbar.jsx";
 function Main() {
     return (
         <>
-            <CustomNavbar colorClass="text-theme" />
+            <CustomNavbar colorClass="text-theme" activePage="/home" />
             <Container className="py-5">
                 <Row>
                     <Col xs={12} lg={6} className="d-flex align-items-start flex-column">

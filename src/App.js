@@ -6,7 +6,7 @@ import Projects from "./components/Pages/Projects/Projects.jsx";
 import Skills from "./components/Pages/Skills/Skills"
 
 function App() {
-  const page = 2;
+  const page = 1;
   return (
     <div>
       {page === 1 ? (
