@@ -8,7 +8,7 @@ function Avatar({ image }) {
         className="rounded-circle bg-themeYellow p-3"
         style={{ height: "20rem", width: "20rem" }}
       >
-        <Image src={image} alt="avishka" className="rounded-circle" fluid />
+        <Image src={image} alt="Hope" className="rounded-circle" fluid />
       </div>
     </div>
   );

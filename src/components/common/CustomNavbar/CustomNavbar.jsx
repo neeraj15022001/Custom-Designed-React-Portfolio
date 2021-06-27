@@ -9,10 +9,10 @@ function CustomNavbar({ colorClass, activePage }) {
       <Navbar bg="white" variant="light" expand="lg">
         <Container>
           <Navbar.Brand
-            href="#avishka"
+            href="#Hope"
             className={`font-pacifico ${colorClass} fs-3`}
           >
-            Avishka
+            Hope
           </Navbar.Brand>
           <Navbar.Toggle
             aria-controls="basic-navbar-nav"

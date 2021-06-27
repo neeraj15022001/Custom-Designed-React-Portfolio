@@ -6,26 +6,26 @@
   animation: colorfill 1s linear forwards 3s;
 }
 #logo path:nth-child(1) {
-  stroke-dasharray: 946.3444213867188;
-  stroke-dashoffset: 946.3444213867188;
+  stroke-dasharray: 928.0003051757812;
+  stroke-dashoffset: 928.0003051757812;
   animation: animation 2s ease-in-out forwards;
 }
 #logo path:nth-child(2) {
-  stroke-dasharray: 685.670654296875;
-  stroke-dashoffset: 685.670654296875;
+  stroke-dasharray: 752.97021484375;
+  stroke-dashoffset: 752.97021484375;
   animation: animation 2s ease-in-out forwards 0.3s;
 }
 #logo path:nth-child(3) {
-  stroke-dasharray: 462.85675048828125;
-  stroke-dashoffset: 462.85675048828125;
+  stroke-dasharray: 1008.8755493164062;
+  stroke-dashoffset: 1008.8755493164062;
   animation: animation 2s ease-in-out forwards 0.6s;
 }
 #logo path:nth-child(4) {
-  stroke-dasharray: 808.4410400390625;
-  stroke-dashoffset: 808.4410400390625;
+  stroke-dasharray: 894.1826171875;
+  stroke-dashoffset: 894.1826171875;
   animation: animation 2s ease-in-out forwards 0.9s;
 }
-#logo path:nth-child(5) {
+/* #logo path:nth-child(5) {
   stroke-dasharray: 922.1541137695312;
   stroke-dashoffset: 922.1541137695312;
   animation: animation 2s ease-in-out forwards 1.2s;
@@ -39,7 +39,7 @@
   stroke-dasharray: 977.5430297851562;
   stroke-dashoffset: 977.5430297851562;
   animation: animation 2s ease-in-out forwards 1.8s;
-}
+} */
 
 .bg-theme {
   background-color: var(--themeColor);

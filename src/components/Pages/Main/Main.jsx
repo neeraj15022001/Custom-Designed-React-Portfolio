@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
-import kaka from "../../../resources/kaka.png";
+import cartoonIllustration from "../../../resources/cartoonIllustration.png";
 import EmailIcon from "@material-ui/icons/Email";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
@@ -24,7 +24,7 @@ function Main() {
               <div className="d-flex align-items-center justify-content-center flex-fill">
                 <p className="display-4 fw-bolder mb-5 text-tertiary">
                   Hello my
-                  <br /> name is <span className="text-theme">Avishka</span>.
+                  <br /> name is <span className="text-theme">Hope</span>.
                   <br /> I am a Front End
                   <br /> Developer
                 </p>
@@ -42,9 +42,9 @@ function Main() {
             >
               <Image
                 className="d-none d-lg-block"
-                src={kaka}
+                src={cartoonIllustration}
                 draggable="false"
-                alt="kaka"
+                alt="cartoonIllustration"
                 fluid
               />
             </Col>

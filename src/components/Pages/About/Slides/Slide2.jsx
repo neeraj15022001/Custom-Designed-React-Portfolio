@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Avatar from "../Avatar";
-import avishka from "../../../../resources/Avishka-14.png";
+import Hope from "../../../../resources/Hope-14.png";
 import { CaretRightFill } from "react-bootstrap-icons";
 
 function Slide2() {
@@ -10,7 +10,7 @@ function Slide2() {
       <Container>
         <Row style={{ height: "90vh" }}>
           <Col lg={4}>
-            <Avatar image={avishka} />
+            <Avatar image={Hope} />
           </Col>
           <Col
             lg={8}

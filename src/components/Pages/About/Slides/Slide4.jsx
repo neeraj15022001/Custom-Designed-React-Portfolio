@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Avatar from "../Avatar";
-import avishka from "../../../../resources/Avishka-29.png";
+import Hope from "../../../../resources/Hope-29.png";
 
 function Slide4() {
   return (
@@ -9,7 +9,7 @@ function Slide4() {
       <Container>
         <Row style={{ height: "90vh" }}>
           <Col lg={4}>
-            <Avatar image={avishka} />
+            <Avatar image={Hope} />
           </Col>
           <Col
             lg={8}
@@ -26,14 +26,14 @@ function Slide4() {
               <span className="text-themeYellow display-2 fw-bold">
                 <a
                   className="text-themeYellow"
-                  href="mailto:avishka0452.cse19@chitkara.edu.in"
+                  href="mailto:gneeraj32595@gmail.com"
                 >
                   Email
                 </a>{" "}
                 or{" "}
                 <a
                   className="text-themeYellow"
-                  href="https://www.linkedin.com/in/avishka24/"
+                  href="https://www.linkedin.com/in/neeraj15022001/"
                 >
                   Linkedin
                 </a>
