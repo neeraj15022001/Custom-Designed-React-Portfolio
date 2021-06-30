@@ -2,9 +2,7 @@ import React from "react";
 import "./Explore.css";
 import Navbar from "../../../common/CustomNavbar/CustomNavbar";
 import { Image, Container } from "react-bootstrap";
-// import housemed from "../../../../resources/housemed_tablet.png";
-// import magictouch from "../../../../resources/magictouch_tablet.png";
-// import portfolio from "../../../../resources/portfolio_tablet.png";
+import {Slide1, Slide2, Slide3} from "./Images.js"
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.css";
 import SwiperCore, { Navigation } from "swiper/core";
@@ -30,51 +28,48 @@ function Explore() {
                 className="d-flex align-items-center justify-content-center"
                 fluid
               >
-                {/* <Image
+                <Image
                   draggable="false"
-                  src={magictouch}
-                  alt="Magic Touch"
-                  data-toggle="tooltip"
-                  data-placement="top"
-                  title="Magic Touch"
-                  className="mx-auto"
-                  fluid
-                /> */}
-                SLIDE 1
-              </Container>
-            </SwiperSlide>
-            <SwiperSlide>
-              <Container
-                className="d-flex align-items-center justify-content-center"
-                fluid
-              >
-                {/* <Image
-                  draggable="false"
-                  src={housemed}
-                  alt="House Med"
-                  data-toggle="tooltip"
-                  data-placement="top"
-                  title="House Med"
-                  fluid
-                /> */}
-                SLIDE 2
-              </Container>
-            </SwiperSlide>
-            <SwiperSlide>
-              <Container
-                className="d-flex align-items-center justify-content-center"
-                fluid
-              >
-                {/* <Image
-                  draggable="false"
-                  src={portfolio}
+                  src={Slide1}
                   alt="Personal Portfolio"
                   data-toggle="tooltip"
                   data-placement="top"
                   title="Personal Portfolio"
+                  className="mx-auto"
                   fluid
-                /> */}
-                SLIDE 3
+                />
+              </Container>
+            </SwiperSlide>
+            <SwiperSlide>
+              <Container
+                className="d-flex align-items-center justify-content-center"
+                fluid
+              >
+                <Image
+                  draggable="false"
+                  src={Slide2}
+                  alt="Concept Portfolio"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="Concept Portfolio"
+                  fluid
+                />
+              </Container>
+            </SwiperSlide>
+            <SwiperSlide>
+              <Container
+                className="d-flex align-items-center justify-content-center"
+                fluid
+              >
+                <Image
+                  draggable="false"
+                  src={Slide3}
+                  alt="Love Alarm"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="Love Alarm"
+                  fluid
+                />
               </Container>
             </SwiperSlide>
           </Swiper>
