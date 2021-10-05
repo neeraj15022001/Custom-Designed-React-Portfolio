@@ -1,0 +1,9 @@
+@media (max-width: 768px) {
+  .illustrationOne {
+    height: 500px !important;
+  }
+  ,
+  .illustrationTwo {
+    height: 500px !important;
+  }
+}
