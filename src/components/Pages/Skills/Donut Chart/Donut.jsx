@@ -9,7 +9,7 @@ const data = [
   { name: "Javascript", value: 10 },
   { name: "SASS", value: 10 },
   { name: "HTML|CSS", value: 10 },
-  { name: "Jquery", value: 10 },
+  { name: "Jquery", value: 10 }
 ];
 
 const renderActiveShape = (props) => {
@@ -23,7 +23,7 @@ const renderActiveShape = (props) => {
     startAngle,
     endAngle,
     fill,
-    payload,
+    payload
   } = props;
   const sin = Math.sin(-RADIAN * midAngle);
   const cos = Math.cos(-RADIAN * midAngle);
@@ -83,26 +83,39 @@ const renderActiveShape = (props) => {
 export default class Donut extends PureComponent {
   state = {
     activeIndex: 0,
+    isMobile: false
   };
 
   onPieEnter = (_, index) => {
     this.setState({
-      activeIndex: index,
+      activeIndex: index
     });
   };
+
+  componentDidMount() {
+    if (window.screen.availWidth < 500) {
+      this.setState((prevState) => ({
+        isMobile: true
+      }));
+    } else {
+      this.setState((prevState) => ({
+        isMobile: false
+      }));
+    }
+  }
 
   render() {
     return (
       <ResponsiveContainer width="100%" height="100%">
-        <PieChart width={400} height={400}>
+        <PieChart width={500} height={500}>
           <Pie
             activeIndex={this.state.activeIndex}
             activeShape={renderActiveShape}
             data={data}
             cx="50%"
             cy="50%"
-            innerRadius={180}
-            outerRadius={200}
+            innerRadius={this.state.isMobile ? 100 : 180}
+            outerRadius={this.state.isMobile ? 180 : 200}
             fill="#8884d8"
             dataKey="value"
             onMouseEnter={this.onPieEnter}

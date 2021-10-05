@@ -12,7 +12,7 @@ function Main() {
       <CustomNavbar colorClass="text-theme" activePage="/" />
       <div
         className="d-flex align-items-center justify-content-center"
-        style={{ height: "92vh" }}
+        style={{ height: "92vh", paddingTop: "4rem" }}
       >
         <Container className="py-5">
           <Row>
@@ -41,7 +41,7 @@ function Main() {
               className="d-flex align-items-center justify-content-center"
             >
               <Image
-                className="d-none d-lg-block"
+                className="d-lg-block"
                 src={cartoonIllustration}
                 draggable="false"
                 alt="cartoonIllustration"
